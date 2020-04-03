@@ -2,11 +2,23 @@
 
 <head>
 	<link rel="stylesheet" href="stylecomp.css" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="robots" content="noindex" />
+	<link rel="stylesheet" href="css/style.css" class="style">
+	<title>Home</title>
 </head>
 
 <body onload="startTime()">
 	<div class="linkHandle">
-		test_text
+		<form autocomplete="off" class="center overlay search-form" id="search-form" spellcheck="false">
+		  <div>
+		    <input class="search-input" id="search-input" title="search" type="text" />
+		    <ul class="search-suggestions" id="search-suggestions"></ul>
+		  </div>
+		</form>
+		<aside class="center help overlay" id="help"></aside>
+		<script src="js/script.js"></script>
 	</div>
 	<div class="orbitHandle">
 		<div id='murcury-orbit'>

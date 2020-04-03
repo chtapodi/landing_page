@@ -9,12 +9,14 @@ html, body {
 	/* color: black; */
 	font-family: 'Numbers', Fallback, sans-serif;
 	background-color: 666666;
+	color: #A2D0EC;
+		text-shadow: 2px 2px #003A5DA0;
 }
 
 .linkHandle {
 	/* position: float; */
-	color: white;
-	text-shadow: 2px;
+	/* color: white; */
+
 
 }
 
